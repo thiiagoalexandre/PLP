@@ -14,7 +14,7 @@ public abstract class Computador {
 
     @Override
     public String toString(){
-        return "RAM= "+this.getRAM() + "HDD= "+ this.getHDD() + "CPU= "+ this.getCPU();
+        return "RAM=" + this.getRAM() + " HDD="+ this.getHDD() + " CPU=" + this.getCPU();
         
     }
 }
